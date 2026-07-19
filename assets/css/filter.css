@@ -1,0 +1,267 @@
+/* =====================================================
+   Filter Container
+===================================================== */
+
+.filter-container{
+
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    width:100%;
+
+}
+
+/* =====================================================
+   Label
+===================================================== */
+
+.filter-label{
+
+    font-size:14px;
+
+    font-weight:600;
+
+    color:#374151;
+    
+    display:block;
+
+    margin-bottom:0px;
+
+    margin-left: 8px;
+
+}
+
+
+
+
+.filter-button{
+
+    height:48px;
+
+    min-width:120px;
+
+    padding:0 28px;
+
+    border:none;
+
+    border-radius:16px;
+
+    background:linear-gradient(
+        135deg,
+        #FFB347,
+        #FF8C00
+    );
+
+    color:#fff;
+
+    font-weight:700;
+
+    white-space:nowrap;
+
+}
+
+.filter-button:hover{
+
+    transform:translateY(-2px);
+
+}
+
+
+/* ==========================================
+   Dash 3 Dropdown
+========================================== */
+
+.dash-dropdown-wrapper{
+
+    width:100%;
+
+}
+
+.dash-dropdown-wrapper button{
+
+    width:100%;
+
+    min-height:48px;
+
+    padding:0 16px;
+
+    background:rgba(255,255,255,.22)!important;
+
+    backdrop-filter:blur(18px);
+
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.45)!important;
+
+    border-radius:16px;
+
+    box-shadow:
+        0 8px 24px rgba(30,40,70,.05);
+
+    transition:.25s;
+}
+
+.dash-dropdown-wrapper button:hover{
+
+    background:rgba(255,255,255,.30)!important;
+
+}
+
+.dash-dropdown-grid-container{
+
+    background:transparent!important;
+
+}
+
+.dash-dropdown-value{
+
+    color:#374151!important;
+
+    font-weight:500;
+
+}
+
+.dash-dropdown-placeholder{
+
+    color:#6B7280!important;
+
+}
+
+.dash-dropdown-trigger-icon{
+
+    color:#6B7280!important;
+
+}
+
+
+/* input wrapper */
+
+.filter-date-range > div{
+
+    background:transparent !important;
+
+}
+
+/* dua input */
+
+.filter-date-range input{
+
+    background:transparent !important;
+
+    color:#374151 !important;
+
+    border:none !important;
+
+    box-shadow:none !important;
+
+}
+
+/* seluruh div inline */
+
+.filter-date-range div[style*="inline-block"]{
+
+    background:transparent !important;
+
+}
+
+/* svg */
+
+.filter-date-range svg{
+
+    background:transparent !important;
+
+}
+
+
+
+/* ==========================================
+   Glass Date Range
+========================================== */
+.glass-date-range{
+
+    display:flex;
+    
+    align-items:center;
+
+    width:100%;
+
+    height:36px;
+
+    padding: 24px 10px;
+
+    margin-top:8px;
+
+    gap:12px;
+
+    background:
+        linear-gradient(
+            180deg,
+            rgba(255,255,255,.35),
+            rgba(255,255,255,.20)
+        );
+
+    backdrop-filter:blur(22px);
+
+    -webkit-backdrop-filter:blur(22px);
+
+    border:1px solid rgba(255,255,255,.45);
+
+    border-radius:18px;
+
+    box-shadow:
+        0 12px 32px rgba(31,38,135,.08);
+
+}
+
+.glass-date-input{
+
+    flex:1;
+   
+
+}
+
+.glass-date-input button{
+
+    background:transparent!important;
+
+    border:none!important;
+
+    box-shadow:none!important;
+
+    height:100%;
+
+    min-height:46px;
+
+}
+
+.glass-divider{
+
+    width:1px;
+
+    align-self:stretch;
+
+    background:rgba(255,255,255,.35);
+
+}
+
+.glass-arrow{
+
+    font-size:18px;
+
+    color:#A0AEC0;
+
+}
+
+.glass-date-icon{
+
+    font-size:20px;
+
+}
+
+.mantine-DatePickerInput-input{
+
+    font-size:14px !important;
+
+    font-weight:500;
+
+}

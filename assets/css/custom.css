@@ -1,0 +1,72 @@
+/* ===================================================
+   MORULA ANALYTICS PORTAL
+   Global Stylesheet
+=================================================== */
+
+/* -------------------------
+   Body
+------------------------- */
+
+body{
+
+    background:#F5F6FA;
+
+}
+
+/* -------------------------
+   Sidebar
+------------------------- */
+
+.sidebar{
+
+    background:#2C3E50;
+
+    min-height:100vh;
+
+    padding:15px;
+
+}
+
+/* -------------------------
+   KPI Card
+------------------------- */
+
+.kpi-card{
+
+    transition:0.3s;
+
+    border-radius:12px;
+
+}
+
+/* Hover Effect */
+
+.kpi-card:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.dashboard-row {
+    margin-bottom: 24px;
+}
+
+.chart-card {
+    padding: 16px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+
+.dashboard-container {
+
+    max-width: 1300px;
+
+    margin: 0 auto;
+
+    padding-left: 32px;
+
+    padding-right: 32px;
+
+}

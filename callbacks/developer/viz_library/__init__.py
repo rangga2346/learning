@@ -1,0 +1,1 @@
+from . import line_revenue_bulanan_callback # type: ignore
